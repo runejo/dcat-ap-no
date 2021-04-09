@@ -59,17 +59,12 @@
           "@value": "Population change. Whole country, latest quarter"
         }
       ],
-      "dcat:Distribution": [
+      "dcat:distribution": [
         {
-          "dcat:accessURL": "https://data.ssb.no/api/v0/dataset/1104?lang=en"
-        },
-        {
-          "dcat:downloadURL": "https://data.ssb.no/api/v0/dataset/1104.json?lang=en",
-          "dct:format": "application/json"
-        },
-        {
-          "dcat:downloadURL": "https://data.ssb.no/api/v0/dataset/1104.csv?lang=en",
-          "dct:format": "text/csv"
+          "@type": "dcat:Distribution",
+          "accessURL": "https://data.ssb.no/api/v0/dataset/1104?lang=no",
+          "downloadURL": "https://data.ssb.no/api/v0/dataset/1104.json?lang=en",
+          "format": "JSON"
         }
       ],
       "dcat:keyword": [
