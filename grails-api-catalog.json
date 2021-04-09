@@ -1,0 +1,75 @@
+{
+    "@context": {
+      "dcat": "http://www.w3.org/ns/dcat#",
+      "dct": "http://purl.org/dc/terms/",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "vcard": "http://www.w3.org/2006/vcard/ns#"
+    },
+    "@graph": [
+      {
+        "@type": "dcat:Catalog",
+        "dct:title" : {
+            "@language" : "en",
+            "@value" : "API: Readymade dataset"},
+        "dct:description" : {
+            "@language" : "no",
+            "@value" : "API with 250 readymade datasets from Statistics Norway's StatBank"}       
+      },
+      {
+        "@id": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/971526920",
+        "@type": "foaf:Agent",
+        "foaf:name": "Statistisk sentralbyrå - SSB",
+        "@language": "no"
+      },
+      { "@id": "https://data.ssb.no/api/v0/dataset/1104",
+        "@type": "dcat:Dataset",
+        "dct:description": "... not every dataset has descripton ...",
+        "dct:identifier": "https://data.ssb.no/api/v0/dataset/1104",
+        "dct:title": {
+          "@language": "en",
+          "@value": "Population change. Whole country, latest quarter"
+        },
+        "dct:title": {
+          "@language": "nb",
+          "@value": "Befolkningsendring ..."
+        },
+        "dct:publisher": {
+          "@id": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/971526920",
+          "@type": "foaf:Agent",
+          "foaf:name": "Statistics Norway"
+        },
+        "dcat:theme": {
+          "@type": "skos:Concept",
+          "name": "... TODO ..."
+        },
+        "dcat:Distribution": [
+          {
+            "dcat:accessURL": "https://data.ssb.no/api/v0/dataset/1104?lang=en"
+          },
+          {
+            "dcat:downloadURL": "https://data.ssb.no/api/v0/dataset/1104.json?lang=en",
+            "dct:format": "application/json"
+          },
+          {
+            "dcat:downloadURL": "https://data.ssb.no/api/v0/dataset/1104.csv?lang=en",
+            "dct:format": "text/csv"
+          }
+        ],
+        "dcat:keyword": [
+              "01222",
+              "births",
+              "deaths",
+              "emigration",
+              "folkemengde",
+              "immigration",
+              "population"
+        ]
+      },
+      {
+        "@id": "http://data.brreg.no/datakatalog/kontaktpunkt/a-10",
+        "@type": "vcard:Kind",
+        "hasEmail": "mailto:statistikkbanken@ssb.no",
+        "organization-name": "Statistikkbanken"
+      }
+    ]
+  }
