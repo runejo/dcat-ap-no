@@ -74,7 +74,7 @@
           ],
           "dcat:accessURL": "https://data.ssb.no/api/v0/dataset/1104",
           "dcat:downloadURL": "https://data.ssb.no/api/v0/dataset/1104.json",
-          "dcat:format": "application/json"
+          "dcat:format": "JSON"
         },
         {
           "@type": "dcat:Distribution",
@@ -90,7 +90,7 @@
           ],
           "dcat:accessURL": "https://data.ssb.no/api/v0/dataset/1104",
           "dcat:downloadURL": "https://data.ssb.no/api/v0/dataset/1104.csv",
-          "dcat:format": "text/csv"
+          "dcat:format": "CSV"
         }
       ],
       "dcat:keyword": [
