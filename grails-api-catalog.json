@@ -62,12 +62,35 @@
       "dcat:distribution": [
         {
           "@type": "dcat:Distribution",
+          "dcat:description": [
+            {
+              "@language": "no",
+              "@value": "Distribusjonsbeskrivelse"
+            },
+            {
+              "@language": "en",
+              "@value": "Distribution description"
+            }
+          ],
           "dcat:accessURL": "https://data.ssb.no/api/v0/dataset/1104",
           "dcat:downloadURL": "https://data.ssb.no/api/v0/dataset/1104.json",
-          "dcat:format": [
-            "application/json",
-            "text/csv"
-          ]
+          "dcat:format": "application/json"
+        },
+        {
+          "@type": "dcat:Distribution",
+          "dcat:description": [
+            {
+              "@language": "no",
+              "@value": "Distribusjonsbeskrivelse"
+            },
+            {
+              "@language": "en",
+              "@value": "Distribution description"
+            }
+          ],
+          "dcat:accessURL": "https://data.ssb.no/api/v0/dataset/1104",
+          "dcat:downloadURL": "https://data.ssb.no/api/v0/dataset/1104.csv",
+          "dcat:format": "text/csv"
         }
       ],
       "dcat:keyword": [
