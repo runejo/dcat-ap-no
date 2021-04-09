@@ -62,9 +62,12 @@
       "dcat:distribution": [
         {
           "@type": "dcat:Distribution",
-          "accessURL": "https://data.ssb.no/api/v0/dataset/1104?lang=no",
-          "downloadURL": "https://data.ssb.no/api/v0/dataset/1104.json?lang=en",
-          "format": "JSON"
+          "dcat:accessURL": "https://data.ssb.no/api/v0/dataset/1104",
+          "dcat:downloadURL": "https://data.ssb.no/api/v0/dataset/1104.json",
+          "dcat:format": [
+            "JSON",
+            "CSV"
+          ]
         }
       ],
       "dcat:keyword": [
