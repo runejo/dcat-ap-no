@@ -64,7 +64,10 @@
           "@type": "dcat:Distribution",
           "dcat:accessURL": "https://data.ssb.no/api/v0/dataset/1104",
           "dcat:downloadURL": "https://data.ssb.no/api/v0/dataset/1104.json",
-          "dcat:format": "JSON"
+          "dcat:format": [
+            "application/json",
+            "text/csv"
+          ]
         }
       ],
       "dcat:keyword": [
