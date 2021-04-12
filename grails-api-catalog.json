@@ -41,10 +41,16 @@
       "dct:creator": {
         "@id": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/971526920"
       },
-      "dct:description": {
-        "@language": "en",
-        "@value": "... not every dataset has descripton ..."
-      },
+      "dct:description": [
+        {
+          "@language": "no",
+          "@value": "... ikke alle datasett har beskrivelse ..."
+        },
+        {
+          "@language": "en",
+          "@value": "... not every dataset has descripton ..."
+        }
+      ],
       "dct:identifier": "1104",
       "dct:publisher": {
         "@id": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/971526920"
