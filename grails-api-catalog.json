@@ -71,7 +71,7 @@
           "dcat:accessURL": {
             "@id": "https://data.ssb.no/api/v0/dataset/1104"
           },
-          "dcat:description": [
+          "dct:description": [
             {
               "@language": "no",
               "@value": "Distribusjonsbeskrivelse"
@@ -111,7 +111,7 @@
         "folkemengde",
         "immigration",
         "population",
-        "TEST-2"
+        "TEST-3"
       ]
     }
   ]
