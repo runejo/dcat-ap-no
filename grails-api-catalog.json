@@ -85,11 +85,7 @@
             "no",
             "en"
           ],
-          "dcat:format": [
-            "application/json",
-            "text/csv"
-          ],
-          "dcat:mediaType": [
+          "dct:format": [
             "application/json",
             "text/csv"
           ],
