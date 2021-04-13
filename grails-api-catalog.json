@@ -81,9 +81,17 @@
               "@value": "Distribution description"
             }
           ],
+          "dct:language": [
+            "no",
+            "en"
+          ],
           "dcat:format": [
             "JSON",
             "CSV"
+          ],
+          "dcat:mediaType": [
+            "application/json",
+            "text/csv"
           ],
           "dcat:downloadURL": [
             {
@@ -103,7 +111,7 @@
         "folkemengde",
         "immigration",
         "population",
-        "TEST-1"
+        "TEST-2"
       ]
     }
   ]
