@@ -81,10 +81,7 @@
               "@value": "Distribution description"
             }
           ],
-          "dct:format": [
-            "JSON",
-            "CSV"
-          ],
+          "dct:format": "JSON",
           "dct:licence": {
             "@type": [
               "dct:LicenseDocument",
@@ -102,14 +99,10 @@
               }
             ]
           },
-          "dcat:downloadURL": [
-            {
-              "@id": "https://data.ssb.no/api/v0/dataset/1104.json"
-            },
-            {
-              "@id": "https://data.ssb.no/api/v0/dataset/1104.csv"
-            }
-          ]
+          "dcat:downloadURL": {
+            "@id": "https://data.ssb.no/api/v0/dataset/1104.json",
+            "@language": "no"
+          }
         }
       ],
       "dcat:keyword": [
@@ -120,7 +113,7 @@
         "folkemengde",
         "immigration",
         "population",
-        "TEST-8"
+        "TEST-9"
       ]
     }
   ]
