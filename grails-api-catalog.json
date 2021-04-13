@@ -44,11 +44,11 @@
       "dct:description": [
         {
           "@language": "no",
-          "@value": "... ikke alle datasett har beskrivelse ..."
+          "@value": "ikke alle datasett har beskrivelse ..."
         },
         {
           "@language": "en",
-          "@value": "... not every dataset has descripton ..."
+          "@value": "not every dataset has descripton ..."
         }
       ],
       "dct:identifier": "1104",
@@ -113,7 +113,7 @@
         "folkemengde",
         "immigration",
         "population",
-        "TEST-9"
+        "TEST-10"
       ]
     }
   ]
