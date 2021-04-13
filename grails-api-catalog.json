@@ -86,8 +86,8 @@
             "en"
           ],
           "dcat:format": [
-            "JSON",
-            "CSV"
+            "application/json",
+            "text/csv"
           ],
           "dcat:mediaType": [
             "application/json",
@@ -111,7 +111,7 @@
         "folkemengde",
         "immigration",
         "population",
-        "TEST-3"
+        "TEST-4"
       ]
     }
   ]
