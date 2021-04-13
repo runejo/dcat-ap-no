@@ -105,7 +105,7 @@
                 "@value": "Norwegian Licence for Open Government Data"
               }
             ]
-          }
+          },
           "dcat:downloadURL": [
             {
               "@id": "https://data.ssb.no/api/v0/dataset/1104.json"
@@ -124,7 +124,7 @@
         "folkemengde",
         "immigration",
         "population",
-        "TEST-4"
+        "TEST-5"
       ]
     }
   ]
