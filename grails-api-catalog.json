@@ -74,33 +74,36 @@
           "dct:description": [
             {
               "@language": "no",
-              "@value": "Distribusjonsbeskrivelse"
+              "@value": "Datasett i JSON-stat format"
             },
             {
               "@language": "en",
-              "@value": "Distribution description"
+              "@value": "Dataset in JSON-stat format"
             }
           ],
           "dct:format": "JSON",
-          "dct:licence": {
-            "@type": [
-              "dct:LicenseDocument",
-              "skos:Concept"
-            ],
-            "dct:source": "http://data.norge.no/nlod/no/2.0",
-            "skos:prefLabel": [
-              {
-                "@language": "no",
-                "@value": "Norsk lisens for offentlige data"
-              },
-              {
-                "@language": "en",
-                "@value": "Norwegian Licence for Open Government Data"
-              }
-            ]
-          },
           "dcat:downloadURL": {
             "@id": "https://data.ssb.no/api/v0/dataset/1104.json?lang=no"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "dcat:accessURL": {
+            "@id": "https://data.ssb.no/api/v0/dataset/1104.html"
+          },
+          "dct:description": [
+            {
+              "@language": "no",
+              "@value": "Datasett i CSV format"
+            },
+            {
+              "@language": "en",
+              "@value": "Dataset in CSV format"
+            }
+          ],
+          "dct:format": "CSV",
+          "dcat:downloadURL": {
+            "@id": "https://data.ssb.no/api/v0/dataset/1104.csv?lang=no"
           }
         }
       ],
@@ -112,7 +115,7 @@
         "folkemengde",
         "immigration",
         "population",
-        "TEST-13"
+        "TEST-14"
       ]
     }
   ]
