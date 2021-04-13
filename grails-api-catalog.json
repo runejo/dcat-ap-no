@@ -94,8 +94,8 @@
               "dct:LicenseDocument",
               "skos:Concept"
             ],
-            "source": "http://data.norge.no/nlod/no/2.0",
-            "prefLabel": [
+            "dct:source": "http://data.norge.no/nlod/no/2.0",
+            "skos:prefLabel": [
               {
                 "@language": "no",
                 "@value": "Norsk lisens for offentlige data"
@@ -124,7 +124,7 @@
         "folkemengde",
         "immigration",
         "population",
-        "TEST-5"
+        "TEST-6"
       ]
     }
   ]
