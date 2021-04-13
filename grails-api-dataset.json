@@ -1,0 +1,232 @@
+{
+  "@graph": [
+    {
+      "@id": "_:b0",
+      "@type": "dqv:QualityAnnotation",
+      "inDimension": "iso:Currentness",
+      "hasBody": "_:b1"
+    },
+    {
+      "@id": "_:b2",
+      "@type": "dcat:Distribution",
+      "format": [
+        "application/json",
+        "text/csv"
+      ],
+      "license": "_:b3",
+      "accessURL": "https://data.ssb.no/api/v0/dataset/1104?lang=no"
+    },
+    {
+      "@id": "_:b3",
+      "@type": [
+        "dct:LicenseDocument",
+        "skos:Concept"
+      ],
+      "source": "http://data.norge.no/nlod/no/2.0",
+      "prefLabel": [
+        {
+          "@language": "no",
+          "@value": "Norsk lisens for offentlige data"
+        },
+        {
+          "@language": "en",
+          "@value": "Norwegian Licence for Open Government Data"
+        }
+      ]
+    },
+    {
+      "@id": "http://brreg.no/catalogs/555111020/datasets/b6c585d9-7ebf-4610-a570-c690250e74a4",
+      "@type": "dcat:Dataset",
+      "objective": [
+        {
+          "@language": "en",
+          "@value": "Formålet"
+        },
+        {
+          "@language": "nb",
+          "@value": "Formålet"
+        },
+        {
+          "@language": "nn",
+          "@value": "Formålet"
+        }
+      ],
+      "accessRights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+      "accrualPeriodicity": "http://publications.europa.eu/resource/authority/frequency/QUARTERLY",
+      "description": [
+        {
+          "@language": "nb",
+          "@value": "beskrivelsen"
+        },
+        {
+          "@language": "nn",
+          "@value": "beskrivelsen"
+        },
+        {
+          "@language": "en",
+          "@value": "beskrivelsen"
+        }
+      ],
+      "language": [
+        "http://publications.europa.eu/resource/authority/language/ENG",
+        "http://publications.europa.eu/resource/authority/language/NOR"
+      ],
+      "modified": "2021-04-01",
+      "publisher": "https://organization-catalogue.demo.fellesdatakatalog.digdir.no/organizations/555111020",
+      "title": [
+        {
+          "@language": "en",
+          "@value": "Population change"
+        },
+        {
+          "@language": "nb",
+          "@value": "Befolkningsutvikling"
+        },
+        {
+          "@language": "nn",
+          "@value": "Befolkningsutvikling"
+        }
+      ],
+      "type": "Data",
+      "distribution": "_:b2",
+      "keyword": [
+        {
+          "@language": "en",
+          "@value": "keyword2"
+        },
+        {
+          "@language": "nb",
+          "@value": "søkeord2"
+        },
+        {
+          "@language": "nn",
+          "@value": "søkjeord1"
+        },
+        {
+          "@language": "nb",
+          "@value": "søkeord1"
+        },
+        {
+          "@language": "nn",
+          "@value": "søkjeord2"
+        },
+        {
+          "@language": "en",
+          "@value": "keyword1"
+        }
+      ],
+      "landingPage": "https://www.ssb.no/",
+      "hasQualityAnnotation": "_:b0"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/language/ENG",
+      "@type": "dct:LinguisticSystem",
+      "authority-code": "ENG",
+      "prefLabel": {
+        "@language": "nb",
+        "@value": "Engelsk"
+      }
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/language/NOR",
+      "@type": "dct:LinguisticSystem",
+      "authority-code": "NOR",
+      "prefLabel": {
+        "@language": "nb",
+        "@value": "Norsk"
+      }
+    }
+  ],
+  "@context": {
+    "prefLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "authority-code": {
+      "@id": "http://publications.europa.eu/ontology/authority/authority-code"
+    },
+    "hasBody": {
+      "@id": "http://www.w3.org/ns/prov#hasBody",
+      "@type": "@id"
+    },
+    "inDimension": {
+      "@id": "http://www.w3.org/ns/dqv#inDimension",
+      "@type": "@id"
+    },
+    "keyword": {
+      "@id": "http://www.w3.org/ns/dcat#keyword"
+    },
+    "hasQualityAnnotation": {
+      "@id": "http://www.w3.org/ns/dqv#hasQualityAnnotation",
+      "@type": "@id"
+    },
+    "type": {
+      "@id": "http://purl.org/dc/terms/type"
+    },
+    "publisher": {
+      "@id": "http://purl.org/dc/terms/publisher",
+      "@type": "@id"
+    },
+    "distribution": {
+      "@id": "http://www.w3.org/ns/dcat#distribution",
+      "@type": "@id"
+    },
+    "title": {
+      "@id": "http://purl.org/dc/terms/title"
+    },
+    "language": {
+      "@id": "http://purl.org/dc/terms/language",
+      "@type": "@id"
+    },
+    "objective": {
+      "@id": "http://difi.no/dcatno#objective"
+    },
+    "accessRights": {
+      "@id": "http://purl.org/dc/terms/accessRights",
+      "@type": "@id"
+    },
+    "modified": {
+      "@id": "http://purl.org/dc/terms/modified",
+      "@type": "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "accrualPeriodicity": {
+      "@id": "http://purl.org/dc/terms/accrualPeriodicity",
+      "@type": "@id"
+    },
+    "description": {
+      "@id": "http://purl.org/dc/terms/description"
+    },
+    "landingPage": {
+      "@id": "http://www.w3.org/ns/dcat#landingPage",
+      "@type": "@id"
+    },
+    "source": {
+      "@id": "http://purl.org/dc/terms/source"
+    },
+    "accessURL": {
+      "@id": "http://www.w3.org/ns/dcat#accessURL",
+      "@type": "@id"
+    },
+    "license": {
+      "@id": "http://purl.org/dc/terms/license",
+      "@type": "@id"
+    },
+    "format": {
+      "@id": "http://purl.org/dc/terms/format"
+    },
+    "schema": "http://schema.org/",
+    "iso": "http://iso.org/25012/2008/dataquality/",
+    "adms": "http://www.w3.org/ns/adms#",
+    "dcatapi": "http://dcat.no/dcatapi/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dqv": "http://www.w3.org/ns/dqv#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "dct": "http://purl.org/dc/terms/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "dcatno": "http://difi.no/dcatno#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "foaf": "http://xmlns.com/foaf/0.1/"
+  }
+}
