@@ -89,6 +89,23 @@
             "application/json",
             "text/csv"
           ],
+          "dct:licence": {
+            "@type": [
+              "dct:LicenseDocument",
+              "skos:Concept"
+            ],
+            "source": "http://data.norge.no/nlod/no/2.0",
+            "prefLabel": [
+              {
+                "@language": "no",
+                "@value": "Norsk lisens for offentlige data"
+              },
+              {
+                "@language": "en",
+                "@value": "Norwegian Licence for Open Government Data"
+              }
+            ]
+          }
           "dcat:downloadURL": [
             {
               "@id": "https://data.ssb.no/api/v0/dataset/1104.json"
