@@ -102,9 +102,11 @@
           "dcat:downloadURL": [
             {
               "@id": "https://data.ssb.no/api/v0/dataset/1104.json?lang=no"
+              "@language": "no"
             },
             {
               "@id": "https://data.ssb.no/api/v0/dataset/1104.json?lang=en"
+              "@language": "en"
             }
           ]
         }
@@ -117,7 +119,7 @@
         "folkemengde",
         "immigration",
         "population",
-        "TEST-10"
+        "TEST-11"
       ]
     }
   ]
