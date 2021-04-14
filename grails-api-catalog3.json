@@ -9,6 +9,7 @@
   },
   "@graph": [
     {
+      "@id": "https://data.ssb.no/api/v0/dataset/catalog",
       "@type": "dcat:Catalog",
       "dct:description": {
         "@language": "en",
