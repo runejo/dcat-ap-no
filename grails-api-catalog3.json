@@ -9,11 +9,7 @@
   },
   "@graph": [
     {
-      "@id": "https://data.ssb.no/api/v0/dataset/catalog",
       "@type": "dcat:Catalog",
-      "dcat:dataset": {
-        "@id": "https://data.ssb.no/api/v0/dataset/1104"
-      },
       "dct:description": {
         "@language": "en",
         "@value": "API with 250 readymade datasets from Statistics Norway's StatBank"
@@ -25,149 +21,148 @@
       "dct:title": {
         "@language": "en",
         "@value": "API: Readymade dataset"
+      },
+      "dcat:dataset": {
+        "@type": "dcat:Dataset",
+        "dct:accessRights": {
+          "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+        },
+        "dcat:theme": [
+          {
+            "@id": "https://psi.norge.no/los/tema/barnehage"
+          },
+          {
+            "@id": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+          }
+        ],
+        "dct:creator": {
+          "@id": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/971526920"
+        },
+        "dct:description": [
+          {
+            "@language": "no",
+            "@value": "ikke alle datasett har beskrivelse ..."
+          },
+          {
+            "@language": "en",
+            "@value": "not every dataset has descripton ..."
+          }
+        ],
+        "dct:identifier": "1104",
+        "dct:publisher": {
+          "@id": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/971526920"
+        },
+        "dct:title": [
+          {
+            "@language": "no",
+            "@value": "Befolkningsutvikling. Hele landet, siste kvartal"
+          },
+          {
+            "@language": "en",
+            "@value": "Population change. Whole country, latest quarter"
+          }
+        ],
+        "dcat:distribution": [
+          {
+            "@type": "dcat:Distribution",
+            "dcat:accessURL": {
+              "@id": "https://data.ssb.no/api/v0/dataset/1104.html"
+            },
+            "dct:description": [
+              {
+                "@language": "no",
+                "@value": "Datasett i JSON-stat format på norsk"
+              },
+              {
+                "@language": "en",
+                "@value": "Dataset in JSON-stat format in Norwegian"
+              }
+            ],
+            "dct:format": {
+              "@id": "http://publications.europa.eu/resource/authority/file-type/JSON"
+            },
+            "dcat:downloadURL": {
+              "@id": "https://data.ssb.no/api/v0/dataset/1104.json?lang=no"
+            }
+          },
+          {
+            "@type": "dcat:Distribution",
+            "dcat:accessURL": {
+              "@id": "https://data.ssb.no/api/v0/dataset/1104.html"
+            },
+            "dct:description": [
+              {
+                "@language": "no",
+                "@value": "Datasett i CSV format på norsk"
+              },
+              {
+                "@language": "en",
+                "@value": "Dataset in CSV format in Norwegian"
+              }
+            ],
+            "dct:format": {
+              "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+            },
+            "dcat:downloadURL": {
+              "@id": "https://data.ssb.no/api/v0/dataset/1104.csv?lang=no"
+            }
+          },
+          {
+            "@type": "dcat:Distribution",
+            "dcat:accessURL": {
+              "@id": "https://data.ssb.no/api/v0/dataset/1104.html"
+            },
+            "dct:description": [
+              {
+                "@language": "no",
+                "@value": "Datasett i JSON-stat format på engelsk"
+              },
+              {
+                "@language": "en",
+                "@value": "Dataset in JSON-stat format in English"
+              }
+            ],
+            "dct:format": {
+              "@id": "http://publications.europa.eu/resource/authority/file-type/JSON"
+            },
+            "dcat:downloadURL": {
+              "@id": "https://data.ssb.no/api/v0/dataset/1104.json?lang=en"
+            }
+          },
+          {
+            "@type": "dcat:Distribution",
+            "dcat:accessURL": {
+              "@id": "https://data.ssb.no/api/v0/dataset/1104.html"
+            },
+            "dct:description": [
+              {
+                "@language": "no",
+                "@value": "Datasett i CSV format på engelsk"
+              },
+              {
+                "@language": "en",
+                "@value": "Dataset in CSV format in English"
+              }
+            ],
+            "dct:format": {
+              "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+            },
+            "dcat:downloadURL": {
+              "@id": "https://data.ssb.no/api/v0/dataset/1104.csv?lang=en"
+            }
+          }
+        ],
+        "dcat:keyword": [
+          "01222",
+          "births",
+          "deaths",
+          "emigration",
+          "folkemengde",
+          "immigration",
+          "population",
+          "TEST-15"
+        ]
       }
-    },
-    {
-      "@id": "https://data.ssb.no/api/v0/dataset/1104",
-      "@type": "dcat:Dataset",
-      "dct:accessRights": {
-        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
-      },
-      "dcat:theme": [
-        {
-          "@id": "https://psi.norge.no/los/tema/barnehage"
-        },
-        {
-          "@id": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
-        }
-      ],
-      "dct:creator": {
-        "@id": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/971526920"
-      },
-      "dct:description": [
-        {
-          "@language": "no",
-          "@value": "ikke alle datasett har beskrivelse ..."
-        },
-        {
-          "@language": "en",
-          "@value": "not every dataset has descripton ..."
-        }
-      ],
-      "dct:identifier": "1104",
-      "dct:publisher": {
-        "@id": "https://organization-catalogue.fellesdatakatalog.digdir.no/organizations/971526920"
-      },
-      "dct:title": [
-        {
-          "@language": "no",
-          "@value": "Befolkningsutvikling. Hele landet, siste kvartal"
-        },
-        {
-          "@language": "en",
-          "@value": "Population change. Whole country, latest quarter"
-        }
-      ],
-      "dcat:distribution": [
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://data.ssb.no/api/v0/dataset/1104.html"
-          },
-          "dct:description": [
-            {
-              "@language": "no",
-              "@value": "Datasett i JSON-stat format på norsk"
-            },
-            {
-              "@language": "en",
-              "@value": "Dataset in JSON-stat format in Norwegian"
-            }
-          ],
-          "dct:format": {
-            "@id": "http://publications.europa.eu/resource/authority/file-type/JSON"
-          },
-          "dcat:downloadURL": {
-            "@id": "https://data.ssb.no/api/v0/dataset/1104.json?lang=no"
-          }
-        },
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://data.ssb.no/api/v0/dataset/1104.html"
-          },
-          "dct:description": [
-            {
-              "@language": "no",
-              "@value": "Datasett i CSV format på norsk"
-            },
-            {
-              "@language": "en",
-              "@value": "Dataset in CSV format in Norwegian"
-            }
-          ],
-          "dct:format": {
-            "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
-          },
-          "dcat:downloadURL": {
-            "@id": "https://data.ssb.no/api/v0/dataset/1104.csv?lang=no"
-          }
-        },
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://data.ssb.no/api/v0/dataset/1104.html"
-          },
-          "dct:description": [
-            {
-              "@language": "no",
-              "@value": "Datasett i JSON-stat format på engelsk"
-            },
-            {
-              "@language": "en",
-              "@value": "Dataset in JSON-stat format in English"
-            }
-          ],
-          "dct:format": {
-            "@id": "http://publications.europa.eu/resource/authority/file-type/JSON"
-          },
-          "dcat:downloadURL": {
-            "@id": "https://data.ssb.no/api/v0/dataset/1104.json?lang=en"
-          }
-        },
-        {
-          "@type": "dcat:Distribution",
-          "dcat:accessURL": {
-            "@id": "https://data.ssb.no/api/v0/dataset/1104.html"
-          },
-          "dct:description": [
-            {
-              "@language": "no",
-              "@value": "Datasett i CSV format på engelsk"
-            },
-            {
-              "@language": "en",
-              "@value": "Dataset in CSV format in English"
-            }
-          ],
-          "dct:format": {
-            "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
-          },
-          "dcat:downloadURL": {
-            "@id": "https://data.ssb.no/api/v0/dataset/1104.csv?lang=en"
-          }
-        }
-      ],
-      "dcat:keyword": [
-        "01222",
-        "births",
-        "deaths",
-        "emigration",
-        "folkemengde",
-        "immigration",
-        "population",
-        "TEST-15"
-      ]
     }
   ]
 }
